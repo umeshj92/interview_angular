@@ -1,3 +1,11 @@
 @for solves this:
 “How do we declaratively describe a dynamic collection of UI elements that must stay perfectly synchronized with a changing collection of data,
 while the framework performs the minimum number of DOM mutations and the developer only expresses what the UI should look like?”
+
+@for(item of items;track item.id)
+{
+
+}
+@empty{
+
+}
