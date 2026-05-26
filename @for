@@ -18,3 +18,10 @@ track
 Angular uses this identity during list reconciliation to decide which DOM nodes can be reused and which need to be created or destroyed.
 This is critical for performance and to preserve component state. That’s why it is mandatory in @for.
 For dynamic lists we should use a unique business key like id, and we should avoid using $index unless the list is truly static.”
+
+
+
+
+“Context variables like $index, $first, $last, $even, and $odd give us metadata about the current iteration. We need them because many UIs require position-based logic or styling.
+The let keyword allows us to create aliases for these variables. It is especially useful in nested loops so we can clearly distinguish between the outer loop’s index and the inner loop’s index.
+While we can use the variables directly, using let makes the code more readable and maintainable.”
