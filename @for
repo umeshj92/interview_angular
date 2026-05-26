@@ -9,3 +9,12 @@ while the framework performs the minimum number of DOM mutations and the develop
 @empty{
 
 }
+
+
+
+
+track 
+“The track expression provides a stable identity for each item in the collection.
+Angular uses this identity during list reconciliation to decide which DOM nodes can be reused and which need to be created or destroyed.
+This is critical for performance and to preserve component state. That’s why it is mandatory in @for.
+For dynamic lists we should use a unique business key like id, and we should avoid using $index unless the list is truly static.”
