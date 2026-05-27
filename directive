@@ -1,0 +1,10 @@
+What is a Directive and what problem does it solve?"
+You can answer like this:
+"In Angular, a Directive is a way to add custom behavior to DOM elements in a reusable manner.
+The main problem it solves is avoiding repetition of DOM manipulation logic across components.
+Instead of writing the same styling, conditional rendering, or event handling code in multiple places, we encapsulate that logic inside a directive and use it declaratively in templates.
+This makes the code cleaner, more maintainable, and reusable.
+Examples include structural directives like *ngIf and *ngFor, attribute directives like ngClass, and custom directives for features like tooltips or highlighting."
+
+
+
