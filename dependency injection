@@ -1,2 +1,3 @@
  dependency is any object, value, function, or service that a class requires to work but does not create itself.
 Instead, you provide it from the outside, creating a clear relationship between different parts of the application.
+This is Inversion of Control — control over creation is inverted from the consumer to an external system (the DI container).
