@@ -1,0 +1,2 @@
+ dependency is any object, value, function, or service that a class requires to work but does not create itself.
+Instead, you provide it from the outside, creating a clear relationship between different parts of the application.
